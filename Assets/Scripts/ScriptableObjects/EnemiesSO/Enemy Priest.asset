@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71eda2c97b2daa44b7813c0573f5984, type: 3}
+  m_Name: Enemy Priest
+  m_EditorClassIdentifier: 
+  entityBaseHP: 40
+  entityBaseAtk: 150
+  entityBaseDef: 60
+  maxDefenceAbsorption: 0.5
+  defenceForMaxAbsorption: 250
+  entityBaseAttackPreparationTime: 2
+  enemyLoot:
+  - lootDropChance: 0.3
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 3306bad7a7e87264c878c8d4a8aa7495, type: 3}
+  - lootDropChance: 0.4
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 2bbb7cbf06d5f4e4b9882fea6f090ddf, type: 3}
+  - lootDropChance: 0.2
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 25ac9c3e4a12250428d7535ebc235120, type: 3}
+  - lootDropChance: 0.15
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 2a0e15497e5da7545a5e5737b01ab842, type: 3}
+  enemyPrefab: {fileID: 1313542852763934488, guid: ca750d7b3561e684cb007ab88d8d8e3f, type: 3}

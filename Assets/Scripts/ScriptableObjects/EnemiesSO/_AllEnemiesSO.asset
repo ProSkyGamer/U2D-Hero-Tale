@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a17dcee2f546041808c8b94709811a, type: 3}
+  m_Name: _AllEnemiesSO
+  m_EditorClassIdentifier: 
+  allEnemies:
+  - enemySO: {fileID: 11400000, guid: 3dafb9e8e3279e848ade010703e096e5, type: 2}
+    enemySpawnChance: 0.5
+  - enemySO: {fileID: 11400000, guid: a2ff482c367daa745a734867654a964c, type: 2}
+    enemySpawnChance: 0.6
+  - enemySO: {fileID: 11400000, guid: d890d81b7fced01479f6ccf03e21e3d6, type: 2}
+    enemySpawnChance: 0.2
+  - enemySO: {fileID: 11400000, guid: 6018e0402d8cbf643963f8a6163199ca, type: 2}
+    enemySpawnChance: 0.75
+  - enemySO: {fileID: 11400000, guid: cd99a7951ad418748b59a53ce2b45e43, type: 2}
+    enemySpawnChance: 0.4

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71eda2c97b2daa44b7813c0573f5984, type: 3}
+  m_Name: Enemy Soldier
+  m_EditorClassIdentifier: 
+  entityBaseHP: 100
+  entityBaseAtk: 80
+  entityBaseDef: 50
+  maxDefenceAbsorption: 0.5
+  defenceForMaxAbsorption: 250
+  entityBaseAttackPreparationTime: 2
+  enemyLoot:
+  - lootDropChance: 0.6
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: cddb14e589fe4ec44ba4d40c05c1bd90, type: 3}
+  - lootDropChance: 0.4
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: e20ca1048e603404cb4ee217856d2658, type: 3}
+  - lootDropChance: 0.2
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 3ed88c861a202104aaa1f17e7f3337a5, type: 3}
+  - lootDropChance: 0.1
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: f8e28bc5703ca3444a558e8dc7a90c9e, type: 3}
+  - lootDropChance: 0.25
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 3494442ea4f6ed3438e16eb2e5434cc3, type: 3}
+  - lootDropChance: 0.06
+    lootInventoryObjectPrefab: {fileID: -7862988436783267839, guid: 35b181ef53e09b34ebd144e5eb97a230, type: 3}
+  enemyPrefab: {fileID: 1313542852763934488, guid: e5e169a2dae77bc4a9eaafad6f706c64, type: 3}
